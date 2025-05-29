@@ -1,6 +1,14 @@
 # Multi-UAV planner for power-line inspection
 
- This repository includes a functional planner with UI for power-line inspections using heterogeneous multi-UAV teams. 
+ This repository includes a functional planner with UI for power-line inspections using heterogeneous multi-UAV teams.
+
+## Citation
+
+If you use this code or data in your research, please cite the following paper:
+
+Alvaro Caballero, Francisco Javier Roman-Escorza, Ivan Maza, and Anibal Ollero.  
+**A Multi-UAV Approach for Fast Inspection of Overhead Power Lines: From Route Planning to Field Operation**.  
+*Journal of Intelligent & Robotic Systems*, accepted for publication.
 
 ## Description
 The main objective of this planner is to allow the user to obtain a mission to inspect power lines using a heterogeneous multi-UAV team. The planner focuses on minimizing the total mission time. 
