@@ -42,7 +42,7 @@ run gui_planner
 ```
 
 ### Load Map
-It is necessary to complete all the parameters in the box on the top right side to load the map. The map definition requires:
+It is necessary to complete all parameters in the box on the top right side to load the map. It requires:
  - Select if the elevation of the terrain will be adopted from [Open Topo Data](https://www.opentopodata.org/datasets/eudem/).
  - Paths of three files at the boxes:
 
@@ -66,10 +66,10 @@ It is necessary to complete all the parameters in the box on the top right side 
    2.  Update weather condition manually or using online data.
 
 ### Plan a Mission
-Clicking on the button 'Planner', a mission will be planned to inspect all the power-line segments using all the available UAVs. In this use case, the clustering option can be enabled to plan a mission faster.
+Clicking on the button 'Planner', a mission will be planned to inspect all power-line segments using all available UAVs. In this use case, the clustering option can be enabled to plan a mission faster.
 
 ### Simulation
-A simple simulation can be performed by using the button 'Simulation' to check the directions of the UAVs and the relative position with resepct to the power grid. The simulation speed can be increased or decreased using the box 'Speed simulation'.
+A simple simulation can be performed by using the button 'Simulation' to check the directions of the UAVs and the relative position with respect to the power grid. The simulation speed can be increased or decreased using the box 'Speed simulation'.
 
 ### Generate files
-The resulting mission can be generated, saving it in the files .yaml (to the GCS) and .kml (to visualize on Google Earth Pro), after including a mission name and a brief description. The files will be generated in the main directory of the repository as 'mission_{Mission Name}.kml' and 'mission_{Mission Name}.yaml'. 
+The resulting mission can be generated, saving it in the files .yaml (for the Ground Control Station) and .kml (for visualization on Google Earth Pro), after including a mission name and a brief description. The files will be generated in the main directory of the repository as 'mission_{Mission Name}.kml' and 'mission_{Mission Name}.yaml'. 
